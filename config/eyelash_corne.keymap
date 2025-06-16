@@ -122,7 +122,7 @@
                                              &kp LEFT_GUI  &kp ENTER     &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 
