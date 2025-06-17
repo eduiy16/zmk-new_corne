@@ -59,7 +59,7 @@
 &kp TAB    &kp Q  &kp W  &kp E         &kp R        &kp T                                      &kp UP_ARROW                     &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
 &td0       &kp A  &kp S  &kp D         &kp F        &kp G                      &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp H  &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C         &kp V        &kp B  &kp C_PLAY_PAUSE                    &kp DOWN_ARROW                   &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                         &kp LEFT_ALT  &lt 5 SPACE  &mo 6                                                                       &mo 4  &lt 5 ENTER  &kp RALT
+                         &kp LEFT_ALT  &lt 3 SPACE  &mo 2                                                                       &mo 4  &lt 5 ENTER  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -71,7 +71,7 @@
 &kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T                               &kp UP_ARROW                     &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
 &caps_word      &kp A  &kp S  &kp D         &kp F      &kp G               &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp H  &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V      &kp B  &kp LCTRL                    &kp DOWN_ARROW                   &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &kp SPACE  &mo 6                                                                &mo 4  &lt 5 ENTER  &kp RALT
+                              &kp LEFT_ALT  &kp SPACE  &mo 2                                                                &mo 4  &lt 5 ENTER  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -101,7 +101,7 @@
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "SIMBOLOS";
             bindings = <
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT  &kp RBKT  &kp DEL
 &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &trans     &trans    &kp BSLH  &kp GRAVE
@@ -127,9 +127,9 @@
         AJUSTE {
             display-name = "AJUSTE";
             bindings = <
-&kp ESCAPE  &to 0            &to 1           &kp N3        &kp N4        &kp N5                                         &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &trans
-&trans      &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&kp ESCAPE  &to 0            &to 1           &trans        &trans        &trans                                         &mmv MOVE_UP                     &trans           &trans           &trans           &trans           &trans     &trans
+&trans      &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans           &trans           &kp SPACE        &kp SPACE        &kp SPACE  &kp SPACE
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp SPACE  &kp SPACE
                                              &kp LEFT_GUI  &kp ENTER     &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
@@ -177,8 +177,8 @@
         compatible = "zmk,conditional-layers";
 
         Ajuste {
-            if-layers = <6 4>;
-            then-layer = <7>;
+            if-layers = <4 2>;
+            then-layer = <6>;
         };
     };
 };
