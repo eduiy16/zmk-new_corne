@@ -347,7 +347,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - {t: QWERTY, h: toggle}
   - {t: WARFRAME, h: toggle}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: EDITAR, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
