@@ -161,5 +161,15 @@
             if-layers = <4 3>;
             then-layer = <7>;
         };
+
+        AjusteEdit1 {
+            if-layers = <6 4>;
+            then-layer = <7>;
+        };
+
+        AjusteEdit2 {
+            if-layers = <4 6>;
+            then-layer = <7>;
+        };
     };
 };
