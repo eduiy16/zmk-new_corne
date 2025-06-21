@@ -49,6 +49,15 @@
         tap-ms = <100>;
     };
 
+    macros {
+        parentesis: parentesis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARENTESIS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -91,9 +100,9 @@
         lower_nums {
             display-name = "NUMEROS";
             bindings = <
-&kp ESCAPE  &kp N1          &kp N2          &kp N3           &kp N4     &kp N5                                       &mmv MOVE_UP                     &kp N6          &kp N7        &kp N8           &kp N9  &kp N0    &kp BACKSPACE
-&trans      &none           &kp UP_ARROW    &none            &none      &kp BACKSPACE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDERSCORE  &kp ASTERISK  &none            &none   &kp HOME  &kp PG_UP
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &kp DELETE     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS       &kp PLUS      &kp EQUAL        &none   &kp END   &kp PG_DN
+&kp ESCAPE  &kp N1          &kp N2          &kp N3           &kp N4     &kp N5                                       &mmv MOVE_UP                     &kp N6          &kp N7        &kp N8           &kp N9       &kp N0    &kp BACKSPACE
+&trans      &none           &kp UP_ARROW    &none            &none      &kp BACKSPACE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDERSCORE  &kp ASTERISK  &none            &parentesis  &kp HOME  &kp PG_UP
+&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &kp DELETE     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS       &kp PLUS      &kp EQUAL        &none        &kp END   &kp PG_DN
                                             &kp LEFT_GUI     &kp ENTER  &trans                                                                        &trans          &kp INS       &kp PRINTSCREEN
             >;
 
