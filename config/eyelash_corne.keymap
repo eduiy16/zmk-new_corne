@@ -90,13 +90,13 @@
         WARFRAME {
             display-name = "WARFRAME";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T                               &kp UP_ARROW                     &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
-&kp CAPSLOCK    &kp A  &kp S  &kp D         &kp F      &kp G               &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &kp H  &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V      &kp B  &kp LCTRL                    &kp DOWN_ARROW                   &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &kp SPACE  &mo 3                                                                &mo 4  &lt 5 ENTER  &kp RALT
+&kp TAB         &kp Q  &kp W  &kp E         &kp R      &kp T                            &kp UP_ARROW                     &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
+&kp CAPSLOCK    &kp A  &kp S  &kp D         &kp F      &kp G            &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &kp H  &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V      &kp B  &kp F3                    &kp DOWN_ARROW                   &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &kp LEFT_ALT  &kp SPACE  &mo 3                                                             &mo 4  &lt 5 ENTER  &kp RALT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp F4 F2>;
         };
 
         EDITAR {
@@ -126,10 +126,10 @@
         raise_layer {
             display-name = "SIMBOLOS";
             bindings = <
-&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                  &none         &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&trans     &none     &none   &none     &none     &none               &none  &none  &none  &none      &none     &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
-&trans     &none     &none   &none     &none     &none      &none           &none         &none      &none     &kp LBRC   &kp RBRC              &kp BACKSLASH          &kp PIPE
-                             &trans    &trans    &trans                                   &trans     &trans    &trans
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH   &kp DLLR   &kp PRCNT                  &none         &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&trans     &none     &none   &none      &none      &none               &none  &none  &none  &none      &none     &none      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE
+&trans     &none     &none   &kp LC(C)  &kp LC(V)  &none      &none           &none         &none      &none     &kp LBRC   &kp RBRC              &kp BACKSLASH          &kp PIPE
+                             &trans     &trans     &trans                                   &trans     &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
