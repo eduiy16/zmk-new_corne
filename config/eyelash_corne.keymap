@@ -77,7 +77,7 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_ALT &kp KP_NUMBER_0 &kp KP_NUMBER_1 &kp KP_NUMBER_7 &kp KP_NUMBER_6>,
-                <&macro_press>,
+                <&macro_release>,
                 <&kp LEFT_ALT>;
 
             label = "GRADO";
