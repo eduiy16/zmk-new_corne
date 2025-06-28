@@ -317,10 +317,10 @@ layers:
   - '&L_15'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&R_15'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - _
   - '*'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&parentesis'
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -334,7 +334,7 @@ layers:
   - {t: '-', s: _}
   - +
   - {t: '=', s: +}
-  - _
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
   - PG DN
   - $$mdi:apple-keyboard-command$$
