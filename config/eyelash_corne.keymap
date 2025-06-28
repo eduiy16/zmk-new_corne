@@ -162,10 +162,10 @@
         lower_editar {
             display-name = "EDIT_LOW";
             bindings = <
-&kp ESCAPE  &kp N1          &kp N2          &kp N3           &kp N4     &kp N5                              &none         &kp N6     &kp N7        &kp N8           &kp N9          &kp N0    &kp BACKSPACE
-&kp F9      &kp I           &kp UP_ARROW    &kp O            &kp M      &kp BACKSPACE                &L_15  &none  &R_15  &none      &kp ASTERISK  &none            &none           &kp HOME  &kp PG_UP
-&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(M)  &kp DELETE     &kp C_MUTE           &none         &kp MINUS  &kp PLUS      &kp EQUAL        &kp UNDERSCORE  &kp END   &kp PG_DN
-                                            &kp LEFT_GUI     &kp ENTER  &trans                                            &trans     &kp INS       &kp PRINTSCREEN
+&kp ESCAPE  &kp N1          &kp N2          &kp N3           &kp N4     &kp N5                              &none         &kp N6          &kp N7        &kp N8           &kp N9       &kp N0    &kp BACKSPACE
+&kp F9      &kp I           &kp UP_ARROW    &kp O            &kp M      &kp BACKSPACE                &L_15  &none  &R_15  &kp UNDERSCORE  &kp ASTERISK  &none            &parentesis  &kp HOME  &kp PG_UP
+&trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(M)  &kp DELETE     &kp C_MUTE           &none         &kp MINUS       &kp PLUS      &kp EQUAL        &none        &kp END   &kp PG_DN
+                                            &kp LEFT_GUI     &kp ENTER  &trans                                            &trans          &kp INS       &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&scroll_encoder>;
