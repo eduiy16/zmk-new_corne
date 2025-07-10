@@ -230,5 +230,15 @@
             if-layers = <5 7>;
             then-layer = <9>;
         };
+
+        AjusteSatis1 {
+            if-layers = <8 5>;
+            then-layer = <9>;
+        };
+
+        AjusteSatis2 {
+            if-layers = <5 8>;
+            then-layer = <9>;
+        };
     };
 };
