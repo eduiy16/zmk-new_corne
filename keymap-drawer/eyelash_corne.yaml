@@ -525,7 +525,7 @@ layers:
   - RGB EFF
   - RGB SPD
   - RGB SPI
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB BRD
   - RGB BRI
